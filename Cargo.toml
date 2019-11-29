@@ -1,0 +1,16 @@
+[package]
+name = "usedump"
+version = "0.1.0"
+authors = ["topecongiro <seuchida@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ra_syntax = { git = "https://github.com/rust-analyzer/rust-analyzer" }
+ra_ide = { git = "https://github.com/rust-analyzer/rust-analyzer" }
+ra_batch = { git = "https://github.com/rust-analyzer/rust-analyzer" }
+ra_db = { git = "https://github.com/rust-analyzer/rust-analyzer" }
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
